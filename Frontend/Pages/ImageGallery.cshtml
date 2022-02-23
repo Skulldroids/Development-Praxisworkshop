@@ -16,7 +16,14 @@
             <a target="_blank" href=@image>
             <img src=@image alt="Cinque Terre" width="600" height="400">
             </a>
-            <div class="desc">Add a description of the image here</div>
+            @if(image == "https://204manuelkleinstore.blob.core.windows.net/images/857799.png")
+            {
+                <div class="desc">Best swordsman on the grandline</div>
+            }
+            else
+            {
+                <div class="desc">Add a description of the image here</div>
+            }
         </div>
     </div>
 }
